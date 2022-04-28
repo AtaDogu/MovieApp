@@ -1,3 +1,4 @@
+import { Movies } from './../movie.datasource';
 import { Component } from "@angular/core";
 
 @Component({
@@ -5,5 +6,7 @@ import { Component } from "@angular/core";
   templateUrl:'./movies.component.html'
 })
 export class MoviesComponent{
+  title='Movie List';
+  movies=Movies;
 
 }
